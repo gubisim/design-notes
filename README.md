@@ -13,4 +13,6 @@ A place for me to dump all my things I am learning about UI/UX
 ## Misc
 
 - using borders is fine as long as they are low contrast
-- Religious Debates - People think everyone on the web thinks in the way that they do, if I dont like it nobody will - You can sit and argue design decisions but the only thing that will really help is user testing
+- Religious Debates 
+    - People think everyone on the web thinks in the way that they do, if I dont like it nobody will 
+    - You can sit and argue design decisions but the only thing that will really help is user testing
