@@ -7,6 +7,12 @@ A place for me to dump all my things I am learning about UI/UX
 - Single column forms are much better for usability and decrease the chance of users misunderstanding the sequential flow of the form.
 - Long forms should be broken into smaller parts to increase user completion rate
     - A stepper is a great way of breaking your form into smaller easier to complete steps. 
+- Avoid placeholders as description for the input 
+    - using placeholders as description is bad practice due to losing your description when you input anything
+- Avoid placeholder as label
+    - when using placeholder as label you lose the input label
+    - this can be okay if you are doing it the Material way that is, while empty use placeholder and float to top when not empty input
+- Forms are completed faster if the labels are on top of the fields. It is easier for your eye to not have to do the X thing to match label to input
 ## Type
 
 - Font size
