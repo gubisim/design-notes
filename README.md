@@ -2,8 +2,8 @@
 
 A place for me to dump all my things I am learning about UI/UX
 
-
-## Forms
+##UX
+### Forms
 - **Always use single column forms** are much better for usability and decrease the chance of users misunderstanding the sequential flow of the form.
 - **Long forms should be broken into smaller parts** to increase user completion rate
     - A stepper is a great way of breaking your form into smaller easier to complete steps. 
@@ -15,12 +15,12 @@ A place for me to dump all my things I am learning about UI/UX
 - **Put labels above input.** Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’
 - **Input should be sized according to the size of the expected input** (i.e. do not use full with for zip code input), having the input larger than the expected input makes users second guess what they are supposed to do.
 
-## Type
+### Type
 - Font size
   - body text 16px you can not go wrong with - usually header should be around 2.5x the size of the body text (40px) in this case - that should be 1rem vs 2.5rem
 - Prefer smaller line height on larger text, increase line height on paragraphs to make more legible
 
-## Misc
+##UI
 - **Do not use high contrast borders** they draw unecessary attention from your eyes
     - using the law of proximity can aleviate a lot of the problems that borders are trying to solve.
     - using borders can be fine in some cases when they are low contrast
