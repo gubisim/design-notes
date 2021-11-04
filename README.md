@@ -2,7 +2,7 @@
 
 A place for me to dump all my things I am learning about UI/UX
 
-##UX
+## UX
 ### Forms
 - **Always use single column forms** are much better for usability and decrease the chance of users misunderstanding the sequential flow of the form.
 - **Long forms should be broken into smaller parts** to increase user completion rate
