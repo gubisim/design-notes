@@ -27,5 +27,5 @@ A place for me to dump all my things I am learning about UI/UX
 - Religious Debates 
     - People think everyone on the web thinks in the way that they do, if I dont like it nobody will 
     - You can sit and argue design decisions but the only thing that will really help is user testing
-    #### Mobile Design
+    ### Mobile Design
     - For margins we recommend keeping a safe zone of at least 20 pixels vertically free on each side (https://instapage.com/blog/mobile-landing-page-design)
