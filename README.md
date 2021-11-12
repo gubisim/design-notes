@@ -17,7 +17,9 @@ A place for me to dump all my things I am learning about UI/UX
 
 ### Type
 - Font size
-  - body text 16px you can not go wrong with - usually header should be around 2.5x the size of the body text (40px) in this case - that should be 1rem vs 2.5rem
+  - Body text 16px you can not go wrong with 
+    - usually header should be around 2.5x the size of the body text (40px) in this case 
+    - that should be 1rem vs 2.5rem
 - Prefer smaller line height on larger text, increase line height on paragraphs to make more legible
 
 ## UI
