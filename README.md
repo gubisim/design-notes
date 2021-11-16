@@ -4,16 +4,35 @@ A place for me to dump all my things I am learning about UI/UX
 
 ## UX
 ### Forms
-- **Always use single column forms** are much better for usability and decrease the chance of users misunderstanding the sequential flow of the form.
-- **Long forms should be broken into smaller parts** to increase user completion rate
+- Avoid multi-column forms 
+    - If a form has horizontally adjacent fields, then the user must scan in a Z pattern, slowing the speed of comprehension and muddying the path to completion.
+    - Single column froms have a straight line down to completion.
+- Break long forms into smaller pieces
+    - When designing forms general rule of thumb is that the less fields the better. Less effort on the user or percieved less effort results in higher completion rate.
+    - Displaying 5-7 inputs at a time is a [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
     - A stepper is a great way of breaking your form into smaller easier to complete steps. 
-- **Avoid placeholders as description for the input** 
-    - using placeholders as description is bad practice due to losing your description when you input anything
-- **Avoid placeholder as label**
-    - when using placeholder as label you lose the input label
-    - this can be okay if you are using floating placeholders (placeholder moves to label when there is input)
-- **Put labels above input.** Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’
-- **Input should be sized according to the size of the expected input** (i.e. do not use full with for zip code input), having the input larger than the expected input makes users second guess what they are supposed to do.
+- Avoid placeholders as description for the input
+    - Using placeholders as description is bad practice due to losing your description when you input anything.
+- Avoid placeholder as label
+    - When using placeholder as label you lose the input label.
+    - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
+- Put labels above input.
+    -  Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
+- Input should be sized according to the size of the expected input** (i.e. do not use full with for zip code input), 
+    - having the input larger than the expected input makes users second guess what they are supposed to do.
+- Action Buttons
+    - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
+    - 99% of the time it is the wrong choice to include reset buttons.
+- Validation
+    - Validation is all over the place with implementation but the Reward early, punish late paradigm I tend to agree with the most
+    - Reward early, punish late ["Inline Validation in Forms: Designing the Experience"](https://medium.com/wdstack/inline-validation-in-forms-designing-the-experience-123fb34088ce)
+        - If field is empty or valid only show validations on leaving the input.
+        - If field input was left at an invalid state and returned to, validate during input.
+        - Implementation described in the article above looks like
+            - The validation library must keep track of the dirty fields.
+            - If the field was in a valid state, perform the validation on the blur event
+            - If the field was in an invalid state, perform the validation when the field value is changed (using the combination of onchange, onblur and onkeypress events)
+            - When the field goes from the invalid to valid state, treat it like a valid field
 
 ### Type
 - Font size
