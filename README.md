@@ -23,6 +23,10 @@ A place for me to dump all my things I am learning about UI/UX
 - Action Buttons
     - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
     - 99% of the time it is the wrong choice to include reset buttons.
+- Sign in Form
+    - Avoid second input for confirming password.
+            - Asking for this a second time leads to lower user conversion and frustration.
+            - Instead you should have a single input for password with a "Show Password" option for them to verify that they typed the password correctly.
 - Validation
     - Validation is all over the place with implementation but the Reward early, punish late paradigm I tend to agree with the most
     - Reward early, punish late ["Inline Validation in Forms: Designing the Experience"](https://medium.com/wdstack/inline-validation-in-forms-designing-the-experience-123fb34088ce)
