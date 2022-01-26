@@ -37,6 +37,10 @@ A place for me to dump all my things I am learning about UI/UX
             - If the field was in a valid state, perform the validation on the blur event
             - If the field was in an invalid state, perform the validation when the field value is changed (using the combination of onchange, onblur and onkeypress events)
             - When the field goes from the invalid to valid state, treat it like a valid field
+- Dynamic Forms
+    - Hard to find anything concrete on this but when a form needs to (add another) these are the best (not great) discussions I have seen about it                   
+        - [https://ux.stackexchange.com/questions/105724/another-pattern-for-dynamic-expanding-forms](https://ux.stackexchange.com/questions/105724/another-pattern-for-dynamic-expanding-forms)
+      - [https://ux.stackexchange.com/questions/22004/dynamic-form-design](https://ux.stackexchange.com/questions/22004/dynamic-form-design)
 
 ### Type
 - Font size
