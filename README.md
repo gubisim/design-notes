@@ -24,9 +24,9 @@ A place for me to dump all my things I am learning about UI/UX
     - Avoid placeholders as description for the input
         - Using placeholders as description is bad practice due to losing your description when you input anything.  
           - Instead place the description below the input, making sure to keep visual hierarchy
-        - Avoid placeholder as label
-            - When using placeholder as label you lose the input label.
-            - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
+    - Avoid placeholder as label
+        - When using placeholder as label you lose the input label.
+        - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
 - Put labels above input.
     - Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
     - By placing the label above the input you can look at both the label and input without any additional effort.
