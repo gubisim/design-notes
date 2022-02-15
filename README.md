@@ -11,13 +11,14 @@ A place for me to dump all my things I am learning about UI/UX
     ![Single column form layout](examples/form-single-column.png)
 - Break long forms into smaller pieces
     - When designing forms general rule of thumb is that the less fields the better. Less effort on the user or percieved less effort results in higher completion rate.
-    - Displaying 5-7 inputs at a time is a [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
+    - Displaying 5-7 inputs in a group is a good goal to aim for and is considered [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
     - A few different ideas for breaking up forms
       - Grouping forms into logical groupings. 
         - Breaking forms into smaller, logical groupings can not only increase user completion (by making a seemingly endless form feel more doable), but also give insight to the user as to why these fields are necessary. 
         ![Group inputs logically](examples/form-grouping.png)
       - Stepper (a more modern approach to a wizard)
         - This can make large forms feel more managable by breaking a large form into smaller, more managable tasks while giving them visual feedback on where they are at and what steps still need to be completed.
+        - Studies show that providing the total amount of steps of front to the user increases form completion significantly.
         ![Form Stepper](examples/form-stepper.png)
 - Placeholders
     - Avoid placeholders as description for the input
@@ -27,7 +28,9 @@ A place for me to dump all my things I am learning about UI/UX
             - When using placeholder as label you lose the input label.
             - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
 - Put labels above input.
-    -  Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
+    - Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
+    - By placing the label above the input you can look at both the label and input without any additional effort.
+    ![Label visual fixations](examples/label-visual-fixation.png)
 - Input should be sized according to the size of the expected input (i.e. do not use full width for zip code input), 
     - having the input larger than the expected input makes users second guess what they are supposed to do.
 - Action Buttons
