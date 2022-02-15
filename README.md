@@ -25,7 +25,7 @@ A place for me to dump all my things I am learning about UI/UX
     - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
     - 99% of the time it is the wrong choice to include reset buttons.
 - Primary vs Secondary actions
-    - When there is no visual difference between the primary action and the secondary action this can both lead to confusion and increase rate of failure in a form. Secondary actions should draw less visual attention.
+    - When there is no visual difference between the primary action and the secondary action this can both lead to confusion and increase rate of failure in a form. Secondary actions should draw less visual attention, this will reduce liklihood of accidental error and gives a more clear path to completetion.
 - Sign in Form
     - Avoid second input for confirming password.
          - Asking for this a second time leads to lower user conversion and frustration.
