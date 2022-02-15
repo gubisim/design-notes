@@ -6,7 +6,7 @@ A place for me to dump all my things I am learning about UI/UX
 ### Forms
 - Avoid multi-column forms
     - If a form has horizontally adjacent fields, then the user must scan in a Z pattern, slowing the speed of comprehension and muddying the path to completion.
-    - Single column froms have a straight line down to completion.
+    - Single column forms have a straight line down to completion.
     ![Multi column vs Single column](examples/multi-column-form.png)
 
 - Break long forms into smaller pieces
