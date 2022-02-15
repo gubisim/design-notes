@@ -6,17 +6,19 @@ A place for me to dump all my things I am learning about UI/UX
 ### Forms
 - Avoid multi-column forms
     - If a form has horizontally adjacent fields there are so many varying ways that the form can be interpreted. There is not a single understood way of completing the form and this can even cause users to lose confidence on whether all of the inputs need to be filled.
-    ![Multi column vs Single column](examples/multi-column-pitfalls.png)
-    - Single column forms have a straight line down to completion.
-    ![Multi column vs Single column](examples/form-single-column.png)
+    ![Multi column form pitfalls](examples/multi-column-pitfalls.png)
+    - Single column forms have a very established and very clear path to completion that is well understood by most users.
+    ![Single column form layout](examples/form-single-column.png)
 - Break long forms into smaller pieces
     - When designing forms general rule of thumb is that the less fields the better. Less effort on the user or percieved less effort results in higher completion rate.
     - Displaying 5-7 inputs at a time is a [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
     - A few different ideas for breaking up forms
       - Grouping forms into logical groupings. 
         - Breaking forms into smaller, logical groupings can not only increase user completion (by making a seemingly endless form feel more doable), but also give insight to the user as to why these fields are necessary. 
+        ![Group inputs logically](examples/form-grouping.png)
       - Stepper (a more modern approach to a wizard)
         - This can make large forms feel more managable by breaking a large form into smaller, more managable tasks while giving them visual feedback on where they are at and what steps still need to be completed.
+        ![Form Stepper](examples/form-stepper.png)
 - Placeholders
     - Avoid placeholders as description for the input
         - Using placeholders as description is bad practice due to losing your description when you input anything.  
