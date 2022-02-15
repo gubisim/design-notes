@@ -4,9 +4,11 @@ A place for me to dump all my things I am learning about UI/UX
 
 ## UX
 ### Forms
-- Avoid multi-column forms 
+- Avoid multi-column forms
     - If a form has horizontally adjacent fields, then the user must scan in a Z pattern, slowing the speed of comprehension and muddying the path to completion.
     - Single column froms have a straight line down to completion.
+    ![Multi column vs Single column](examples/multi-column-form.png)
+
 - Break long forms into smaller pieces
     - When designing forms general rule of thumb is that the less fields the better. Less effort on the user or percieved less effort results in higher completion rate.
     - Displaying 5-7 inputs at a time is a [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
