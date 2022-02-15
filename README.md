@@ -5,20 +5,25 @@ A place for me to dump all my things I am learning about UI/UX
 ## UX
 ### Forms
 - Avoid multi-column forms
-    - If a form has horizontally adjacent fields, then the user must scan in a Z pattern, slowing the speed of comprehension and muddying the path to completion.
+    - If a form has horizontally adjacent fields there are so many varying ways that the form can be interpreted. There is not a single understood way of completing the form and this can even cause users to lose confidence on whether all of the inputs need to be filled.
+    ![Multi column vs Single column](examples/multi-column-pitfalls.png)
     - Single column forms have a straight line down to completion.
-    ![Multi column vs Single column](examples/multi-column-form.png)
-
+    ![Multi column vs Single column](examples/form-single-column.png)
 - Break long forms into smaller pieces
     - When designing forms general rule of thumb is that the less fields the better. Less effort on the user or percieved less effort results in higher completion rate.
     - Displaying 5-7 inputs at a time is a [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
-    - A stepper is a great way of breaking your form into smaller easier to complete steps. 
-- Avoid placeholders as description for the input
-    - Using placeholders as description is bad practice due to losing your description when you input anything.
-    - Instead place the description below the input, making sure to keep visual hierarchy
-- Avoid placeholder as label
-    - When using placeholder as label you lose the input label.
-    - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
+    - A few different ideas for breaking up forms
+      - Grouping forms into logical groupings. 
+        - Breaking forms into smaller, logical groupings can not only increase user completion (by making a seemingly endless form feel more doable), but also give insight to the user as to why these fields are necessary. 
+      - Stepper (a more modern approach to a wizard)
+        - This can make large forms feel more managable by breaking a large form into smaller, more managable tasks while giving them visual feedback on where they are at and what steps still need to be completed.
+- Placeholders
+    - Avoid placeholders as description for the input
+        - Using placeholders as description is bad practice due to losing your description when you input anything.  
+          - Instead place the description below the input, making sure to keep visual hierarchy
+        - Avoid placeholder as label
+            - When using placeholder as label you lose the input label.
+            - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
 - Put labels above input.
     -  Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
 - Input should be sized according to the size of the expected input (i.e. do not use full width for zip code input), 
@@ -26,12 +31,8 @@ A place for me to dump all my things I am learning about UI/UX
 - Action Buttons
     - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
     - 99% of the time it is the wrong choice to include reset buttons.
-- Primary vs Secondary actions
-    - When there is no visual difference between the primary action and the secondary action this can both lead to confusion and increase rate of failure in a form. Secondary actions should draw less visual attention, this will reduce liklihood of accidental error and gives a more clear path to completetion.
-- Sign in Form
-    - Avoid second input for confirming password.
-         - Asking for this a second time leads to lower user conversion and frustration.
-         - Instead you should have a single input for password with a "Show Password" option for them to verify that they typed the password correctly.
+    - Primary vs Secondary actions
+        - When there is no visual difference between the primary action and the secondary action this can both lead to confusion and increase rate of failure in a form. Secondary actions should draw less visual attention, this will reduce liklihood of accidental error and gives a more clear path to completetion.
 - Validation
     - Validation is all over the place with implementation but the Reward early, punish late paradigm I tend to agree with the most
     - Reward early, punish late ["Inline Validation in Forms: Designing the Experience"](https://medium.com/wdstack/inline-validation-in-forms-designing-the-experience-123fb34088ce)
@@ -46,6 +47,10 @@ A place for me to dump all my things I am learning about UI/UX
     - Hard to find anything concrete on this but when a form needs to (add another) these are the best (not great) discussions I have seen about it                   
         - [https://ux.stackexchange.com/questions/105724/another-pattern-for-dynamic-expanding-forms](https://ux.stackexchange.com/questions/105724/another-pattern-for-dynamic-expanding-forms)
       - [https://ux.stackexchange.com/questions/22004/dynamic-form-design](https://ux.stackexchange.com/questions/22004/dynamic-form-design)
+- Sign up Form
+    - Avoid second input for confirming password.
+         - Asking for this a second time leads to lower user conversion and frustration.
+         - Instead you should have a single input for password with a "Show Password" option for them to verify that they typed the password correctly.
 
 ### Type
 - Font size
