@@ -13,6 +13,7 @@ A place for me to dump all my things I am learning about UI/UX
     - A stepper is a great way of breaking your form into smaller easier to complete steps. 
 - Avoid placeholders as description for the input
     - Using placeholders as description is bad practice due to losing your description when you input anything.
+    - Instead place the description below the input, making sure to keep visual hierarchy
 - Avoid placeholder as label
     - When using placeholder as label you lose the input label.
     - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
