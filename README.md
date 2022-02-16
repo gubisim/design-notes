@@ -22,7 +22,7 @@ A place for me to dump all my things I am learning about UI/UX
 
       - Stepper (a more modern approach to a wizard)
         - This can make large forms feel more managable by breaking a large form into smaller, more managable tasks while giving them visual feedback on where they are at and what steps still need to be completed.
-        - Studies show that providing the total amount of steps of front to the user increases form completion significantly.
+        - Studies show that providing the total amount of steps up front to the user increases form completion significantly.
         
         ![Form Stepper](examples/form-stepper.png)
         
