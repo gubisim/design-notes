@@ -38,11 +38,15 @@ A place for me to dump all my things I am learning about UI/UX
         - When using placeholder as label you lose the input label.
         - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
 - Put labels above input.
+
     ![Label visual fixations](examples/label-visual-fixation.png)
+    
     - Google’s UX researchers found that aligning labels above fields on the left-hand side increased form completion time. This is because it requires fewer ‘visual fixations’.
     - By placing the label above the input you can look at both the label and input without any additional effort.
 - Input should be sized according to the size of the expected input
+
     ![Input size](examples/input-size.png)
+    
     - Having the input larger than the expected input makes users second guess what they are expected to input and lead to lower form completetion rates.
 - Action Buttons
     - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
