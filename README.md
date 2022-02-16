@@ -14,8 +14,10 @@ A place for me to dump all my things I am learning about UI/UX
     - Displaying 5-7 inputs in a group is a good goal to aim for and is considered [common practice](https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/) 
     - A few different ideas for breaking up forms
       - Grouping forms into logical groupings. 
-        - Breaking forms into smaller, logical groupings can not only increase user completion (by making a seemingly endless form feel more doable), but also give insight to the user as to why these fields are necessary. 
+        - Breaking forms into smaller, logical groupings can not only increase user completion (by making a seemingly endless form feel more doable), but also give insight to the user as to why these fields are necessary.
+        
         ![Group inputs logically](examples/form-grouping.png)
+
       - Stepper (a more modern approach to a wizard)
         - This can make large forms feel more managable by breaking a large form into smaller, more managable tasks while giving them visual feedback on where they are at and what steps still need to be completed.
         - Studies show that providing the total amount of steps of front to the user increases form completion significantly.
@@ -24,11 +26,15 @@ A place for me to dump all my things I am learning about UI/UX
         
 - Placeholders
     - Avoid using placeholders as description for the input
+    
         ![Placeholder as description](examples/placeholder-description.png)
+        
         - Using placeholders as description is bad practice due to losing your description when you input anything.  
           - Instead place the description below the input, making sure to keep visual hierarchy
     - Avoid using placeholders as the input label
+    
         ![Placeholder as label](examples/placeholder-label.png)
+        
         - When using placeholder as label you lose the input label.
         - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
 - Put labels above input.
@@ -42,7 +48,9 @@ A place for me to dump all my things I am learning about UI/UX
     - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
     - 99% of the time it is the wrong choice to include reset buttons.
     - Primary vs Secondary actions
+    
         ![Primary vs Secondary actions](examples/primary-secondary-button.png)
+        
         - When there is no visual difference between the primary action and the secondary action this can both lead to confusion and increase rate of failure in a form. Secondary actions should draw less visual attention, this will reduce liklihood of accidental error and gives a more clear path to completetion.
 - Validation
     - Validation is all over the place with implementation but the Reward early, punish late paradigm I tend to agree with the most
