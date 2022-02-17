@@ -31,14 +31,14 @@ A place for me to dump all my things I am learning about UI/UX
     
         ![Placeholder as description](examples/placeholder-description.png)
         
-        - Using placeholders as description is bad practice due to losing your description when you input anything.  
-          - Instead place the description below the input, making sure to keep visual hierarchy
+        - Using placeholders as description is bad practice due to losing your description when you input anything. If the the user wants to refer back to the description the only path is to clear out the input and start over.
+        - Instead place the description below the input, making sure to keep visual hierarchy. This allows the user to refer back to the description at any given time during the form completion.
     - Avoid using placeholders as the input label
     
         ![Placeholder as label](examples/placeholder-label.png)
         
-        - When using placeholder as label you lose the input label.
-        - This can be okay if you are using floating placeholders (placeholder moves to label when there is input).
+        - When using placeholder as label you lose the input label and can easily forget what the expected input was supposed to be. In order to get the label back you have to clear out the input data. This causes problems not only during filling out the form but reviewing your input, the user is either forced to guess what the input was asking for based on context clues from the data or to clear out the input data.
+        - One way this can be okay if you are using floating placeholders (placeholder moves to label when there is input). IMO floating labels do not really get you any benefit because the real estate that you were initialy saving by using the placeholder as the label is taken away when it floats up. In this sense floating labels are purely a stylistic choice.
 - Put labels above input.
 
     ![Label visual fixations](examples/label-visual-fixation.png)
