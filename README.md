@@ -61,7 +61,11 @@ A place for me to dump all my things I am learning about UI/UX
     
     - Having the input larger than the expected input makes users second guess what they are expected to input and lead to lower form completetion rates.
 - Action Buttons
-    - Avoid generic words on the button for example "Submit", instead use descriptive words for example "Create Account", "Place Order", etc.
+    - Avoid generic text on buttons
+        - Using words like "Submit" instead of "Create Account" or "Place Order" can lead to less confidence in the user that clicking the button is actually performing the task that they are intending to perform.
+
+        ![Descriptive button text](examples/descriptive-buttons.png)
+
     - 99% of the time it is the wrong choice to include reset buttons.
     - Primary vs Secondary actions
     
