@@ -8,7 +8,7 @@ A place for me to dump all my things I am learning about UI/UX
     - If a form has horizontally adjacent fields there are so many varying ways that the form can be interpreted. There is not a single understood way of completing the form and this can even cause users to lose confidence on whether all of the inputs need to be filled.
     
     ![Multi column form pitfalls](examples/multi-column-pitfalls.png)
-    - Single column forms have a very established and very clear path to completion that is well understood by most users.
+    - Single column forms have a very established and very clear path to completion that is well understood by users.
     
     ![Single column form layout](examples/form-single-column.png)
 - Break long forms into smaller pieces
